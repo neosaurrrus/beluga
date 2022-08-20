@@ -1,7 +1,4 @@
 {
-  "env": {
-    "jest/globals": true
-  },
   "parser": "@typescript-eslint/parser",
   "plugins":[
     "@typescript-eslint"
@@ -49,6 +46,6 @@
     "space-infix-ops": [1, { "int32Hint": false }],
     "switch-colon-spacing": [1, {"after": true, "before": false}],
     "template-curly-spacing": [1, "never"],
-    "template-tag-spacing": 1,
+    "template-tag-spacing": 1
   }
 }
